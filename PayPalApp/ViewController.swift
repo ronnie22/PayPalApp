@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         balanceView.layer.cornerRadius = CGFloat(5.0)
         balanceView.layer.shadowOpacity = Float(0.2)
         balanceView.layer.shadowOffset = CGSize(width: 2, height: 1)
-        balanceView.layer.shadowRadius = CGFloat(2)
+        balanceView.layer.shadowRadius = CGFloat(3)
         
         var rightBarItemImage = UIImage(named: "settings_icon")
         rightBarItemImage = rightBarItemImage?.withRenderingMode(.alwaysOriginal)
